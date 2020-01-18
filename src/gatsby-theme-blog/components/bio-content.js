@@ -7,10 +7,13 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    This is where <Styled.a href="http://example.com/">your name</Styled.a>
+    {/* This is where <Styled.a href="http://example.com/">your name</Styled.a>
     {` `}
     goes.
     <br />
-    Or whatever, you make the rules.
+    Or whatever, you make the rules. */}
+    This is my updated bio.
+    <br />
+    It's shadowing the content from the theme.
   </Fragment>
 )
